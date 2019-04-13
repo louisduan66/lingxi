@@ -1,0 +1,286 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="images/reset.css" type="text/css" />
+<style type="text/css">
+ #container {
+ margin: 0 auto;
+ width: 1002px;
+ }
+ 
+ #header {
+ height: 128px;
+ background: gray url(images/top_bg.jpg) no-repeat;
+ }
+ 
+ #nav li {
+ float: left;
+ /*1、让导航横向*/
+  /*2、将导航撑开*/
+  width: 90px;
+ margin-right: 1px;
+ }
+ 
+ #nav a {
+  /*font-size: 16px;
+ font-family: "微软雅黑";
+ line-height:37px ;                  /*让导航内容居中*/
+ font:16px/37px "微软雅黑",'黑体',sans-serif;    /*可以简写为下面的,可以少写，但要有顺序*/
+  color: #363636;
+ /*8、文字颜色*/
+  display: block;
+ /*5、鼠标移动上去后背景颜色局限在a标签内容中*/
+  height: 37px;
+ /*6、高度*/
+  width: 90px;
+ text-align: center;
+ /*7 、让文字居中*/
+ 
+ }
+ 
+ #nav a:hover {
+ /*3、鼠标放上来后变的样式*/
+  color: white;
+ background: url(images/nav_on.gif);
+ /*4、鼠标移动后的背景颜色*/
+ }
+ #banner{
+ margin: 10px 0;
+ }
+
+ 
+.subtitle{
+ height: 37px;
+ background: url(images/index_main_top_bg.gif);   /*14对原先设置的背景颜色进行更改*/
+  line-height: 37px;
+ }
+ .subtitle img{
+ float: left;                         /*10将初始化的图片左浮动*/
+  margin: 5px 0 0 10px;                 /*11对图片进行微调*/
+ }
+ .subtitle h1{
+ float:left;
+ font-size: 16px;                           /*12对标题中字体进行设置*/
+  font-family: "微软雅黑",simhei,sans-serif;
+ margin-left:10px;
+ }
+ .subtitle a{
+ display: block;
+ float: right;
+ font-size: 12px;                            /*13对超链接进行微调*/
+  color: #888;
+ line-height: 37px;
+ }
+.four{
+width: 326px;
+height: 200px;
+background: #EEE;                     /*这里将原先的背景改成其他的颜色*/
+float: left;
+margin: 10px;
+}
+.four h2{
+color: #A0A0A0;                       /*字体颜色微调*/
+font-size: 16px;
+font-family: "微软雅黑";
+margin: 6px 0 6px 10px;                     /*16将h2标题做做修改*/
+}
+.four img{
+float: left;                           /*11、让class为four标签的img左浮动*/
+margin-left: 10px;                            /*15图片背后有背景颜色为白色*/
+padding: 6px;
+background: white;
+}
+.four ul{
+float: left;
+margin-left: 10px;
+}
+.four li{
+background: url(images/service_intro_bg.gif) no-repeat;      /*16标签前面的小黑点*/
+padding-left: 10px;                              /*17小黑点在字的下面*/
+height: 20px;
+}
+.four a{
+color: #888;                                   /*18a标签的颜色*/
+}
+.four a:visited{
+color: #808080;
+}
+ 
+.four a:hover{
+color: #FF832C;
+}
+#lside{
+height: 480px;
+width: 694px;
+border: 1px solid #EEE;
+float: left;                            /*8、让左右两个div并列一起*/
+border-top: none;
+}
+ 
+#rside{
+
+width: 294px;
+float: right;            
+
+}
+ 
+#art{
+background: #EEE;
+margin-top: 1px;
+padding-top:10px;
+}
+ 
+#art a{
+color: #888;
+display: block;
+background: url(images/article_head.gif) no-repeat;
+height: 29px;
+line-height:29px ;
+padding-left: 30px;
+}
+#art a:hover{
+color:#FF832C;
+background: url(images/article_on_bg.gif);   /*鼠标移动到文章标题后的背景*/
+}
+#contact{
+margin-top: 1px;
+height: 250px;
+background: #EEE;
+}
+#footer{
+height: 120px;
+clear:both;                         /* 9、撑开*/
+margin-top: 20px;
+}
+#footer ul{
+height: 40px;
+background: #EEE;
+}
+#footer li{
+float: left;
+margin-top: 15px;
+margin-right: 10px;
+}
+#footer address{
+font-family: "微软雅黑",sans-serif;
+font-size:10px;
+margin-top: 15px;
+}
+#footer a:visited{
+color: #808080;
+}
+#footer a:hover{
+color: #FF832C;
+}
+</style>
+</head>
+
+<body>
+<div id="container">              
+<div id="header">             
+<img src="images/logo.jpg" alt="" id="logo"/>
+<ul id="nav">              
+<li><a href="#">导航1</a></li>     
+<li><a href="#">导航2</a></li>
+<li><a href="#">导航3</a></li>
+<li><a href="#">导航4</a></li>
+<li><a href="#">导航5</a></li>
+<li><a href="#">导航6</a></li>
+<li><a href="#">导航7</a></li>
+</ul>
+</div>    
+<img src="images/about_banner.jpg" alt="" id="banner" />
+<div id="main">
+<div id="lside">
+<div class="subtitle">
+<img src="images/circle.gif"/>
+<h1>核心业务</h1>
+<a href="">MORE>></a>
+</div>
+<div class="four">
+<h2>电子商务类网站建设</h2>
+<img src="images/eshop_service.jpg" alt="" />
+<ul>                            
+<li><a href="#">方便的货物管理</a></li>
+<li><a href="#">自定义会员类型</a></li>
+<li><a href="#">在线支付功能</a></li>
+<li><a href="#">丰富的订单统计</a></li>
+<li><a href="#">财务报表生成</a></li>
+</ul>
+</div>
+<div class="four">
+<h2>电子商务类网站建设</h2>
+<img src="images/eshop_service.jpg" alt="" />
+<ul>                            
+<li><a href="#">方便的货物管理</a></li>
+<li><a href="#">自定义会员类型</a></li>
+<li><a href="#">在线支付功能</a></li>
+<li><a href="#">丰富的订单统计</a></li>
+<li><a href="#">财务报表生成</a></li>
+</ul>
+</div>
+<div class="four">
+<h2>电子商务类网站建设</h2>
+<img src="images/eshop_service.jpg" alt="" />
+<ul>                             
+<li><a href="#">方便的货物管理</a></li>
+<li><a href="#">自定义会员类型</a></li>
+<li><a href="#">在线支付功能</a></li>
+<li><a href="#">丰富的订单统计</a></li>
+<li><a href="#">财务报表生成</a></li>
+</ul>
+</div>
+<div class="four">
+<h2>电子商务类网站建设</h2>
+<img src="images/eshop_service.jpg" alt="" />
+<ul>                          
+<li><a href="#">方便的货物管理</a></li>
+<li><a href="#">自定义会员类型</a></li>
+<li><a href="#">在线支付功能</a></li>
+<li><a href="#">丰富的订单统计</a></li>
+<li><a href="#">财务报表生成</a></li>
+</ul>
+</div>
+</div>
+<div id="rside">
+<div class="subtitle">
+<img src="images/circle.gif"/>
+<h1>文章观点</h1>
+<a href="">MORE>></a>
+</div>
+    <ul id="art">              
+    <li><a href="#">这是一篇好文章1</a></li>   
+    <li><a href="#">这是一篇好文章2</a></li>
+    <li><a href="#">这是一篇好文章3</a></li>
+    <li><a href="#">这是一篇好文章4</a></li>
+    <li><a href="#">这是一篇好文章5</a></li>
+    </ul>
+    <div class="subtitle">
+<img src="images/circle.gif"/>
+<h1>联系我们</h1>
+<a href="">MORE>></a>
+</div>
+<div id="contact">
+</div>
+</div>
+</div>
+<div id="footer">
+<ul>                                  
+<li><a href="#">联系我们</a></li>
+<li><a href="#">联系我们</a></li>
+<li><a href="#">联系我们</a></li>
+<li><a href="#">联系我们</a></li>
+<li><a href="#">联系我们</a></li>
+<li><a href="#">联系我们</a></li>
+<li><a href="#">联系我们</a></li>
+</ul>
+<address>©2006-2009 北京市灵犀慧通科技有限公司版权所有 http://www.lionhit.com 京ICP备0123456号 </address>
+</div>
+</div>
+</body>
+</html>
